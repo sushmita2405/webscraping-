@@ -1,0 +1,66 @@
+{
+  "name": "Webscraping",
+  "description": "Webscraping data and write to excel file and mail that",
+  "main": "Main.xaml",
+  "dependencies": {
+    "ClientSideSessionTimeout": "[1.0.2]",
+    "connect-timeout.TypeScript.DefinitelyTyped": "[0.7.1]",
+    "CustomMailHelper": "[2.0.0]",
+    "Mailer.NET": "[1.5.0]",
+    "Ng.LegacyEmailService": "[1.0.1]",
+    "Smdn.Net.Imap4.Client": "[2.0.0-alpha2]",
+    "SmtpProxy": "[1.0.2]",
+    "Timecode4net": "[1.1.1]",
+    "UiPath.Excel.Activities": "[2.11.4]",
+    "UiPath.Mail.Activities": "[1.12.3]",
+    "UiPath.System.Activities": "[21.10.2]",
+    "UiPath.UIAutomation.Activities": "[21.10.3]",
+    "UiPathTeam.RunWithTimeout.Activities": "[1.0.7]"
+  },
+  "webServices": [],
+  "entitiesStores": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "21.10.3.0",
+  "projectVersion": "1.0.0",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "isPausable": true,
+    "isAttended": false,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow",
+    "readyForPiP": false,
+    "startsInPiP": false,
+    "mustRestoreAllDependencies": true
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Process",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    },
+    "processOptions": {
+      "ignoredFiles": []
+    },
+    "fileInfoCollection": [],
+    "modernBehavior": false
+  },
+  "expressionLanguage": "VisualBasic",
+  "entryPoints": [
+    {
+      "filePath": "Main.xaml",
+      "uniqueId": "ac53a4a8-fde2-445f-8572-0a37d63c5c8c",
+      "input": [],
+      "output": []
+    }
+  ],
+  "isTemplate": false,
+  "templateProjectData": {},
+  "publishData": {},
+  "targetFramework": "Legacy"
+}
